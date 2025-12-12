@@ -7,22 +7,6 @@ This project is a minimal end-to-end example:
 
 ## How to run
 
-### 1) Backend
-(a) Install python requirements:
-```
-pip install -r backend/requirements.txt
-```
-(b) Train model (this creates backend/model/model.pkl and scaler):
-```
-python backend/src/train_model.py
-```
-(c) Run API:
-```
-uvicorn backend.src.api:app --reload --host 0.0.0.0 --port 8000
-```
-
-API docs: http://127.0.0.1:8000/docs
-
 ### 2) Frontend
 Move to frontend folder and install dependencies (requires Node.js):
 ```
